@@ -1,0 +1,69 @@
+
+booker -- .8
+joker  -- .75
+brown + tatum -- .65
+
+
+$20 bet
+
+power play  = 39.0
+.390 -- 100
+.636 -- 0
+(100, .39 ; 0, .636)
+
+flex 
+.39 -- 45
+0.4375 -- 25
+.1825 -- 0
+
+
+
+2-leg pp = .75 = 57.7% per pick
+1/4 -- 3x
+3/4 -- 0x
+f(x,y) = 3xy
+
+(.5)*(.5)*3+.75*0 = .75
+
+A B
+
+
+AB = 25% -- 3X
+AB' = 25% -- 0X
+A'B = 25% -- 0X
+A'B' = 25% -- 0X
+
+
+10K bets each worth 1$
+7.5K money
+
+3-leg pp = .625 = 58.4% per pick
+1/8 -- 5x
+7/8 -- 0x
+f(x,y,z) = 5xyz
+
+4-leg pp = .625 = 56.2% per pick
+1/16  -- 10x
+15/16 -- 0x
+f(w,x,y,z) = 10wxyz
+
+3-leg flex = .75 = 59.1% per pick
+1/8 -- 2.25x
+3/8 -- 1.25x
+4/8 -- 0x
+f(x,y,z) = 2.25xyz + 1.25(xyz'+xy'z+x'yz)
+f(x,y,z) = 2.25*x*y*z+(1.25*(x*y*(1-z)+x*(1-y)*z+(1-x)*y*z))
+
+4-leg flex = .6875 = 56.9% per pick
+1/16  -- 5x
+4/16  -- 1.5x
+11/16 -- 0x
+f(w,x,y,z) = 5wxyz + 1.5(wxyz'+wxy'z+wx'yz+w'xyz)
+
+5-leg flex = .75
+1/32 -- 10x
+5/32 -- 2x
+10/32 -- 0.4x
+16/32 -- 0x
+f(v,w,x,y,z) = 10*v*w*x*y*z + 2*(v*w*x*y*(1-z)+v*w*x*(1-y)*z+v*w*(1-x)*y*z+v*(1-w)*x*y*z+(1-v)*w*x*y*z)
+	+ 0.4*(v*w*(1-x)+(1-y)*(1-z)+v*(1-w)*x*(1-y)*(1-z)+v*(1-w)*(1-x)*y*(1-z)+v*(1-w)*(1-x)*(1-y)*z
