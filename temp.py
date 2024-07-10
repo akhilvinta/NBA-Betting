@@ -1,2 +1,1 @@
-changed from remote master
-changed from both again
+made another quick change on feature branch
