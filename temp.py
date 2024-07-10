@@ -1,1 +1,1 @@
-origin contents
+accepting both contents
